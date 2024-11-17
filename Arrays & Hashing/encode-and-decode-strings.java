@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Codec {
+public class Solution {
     public String encode(List<String> strs) {
         return strs.stream()
             .map(s -> s.length() + "#" + s)
